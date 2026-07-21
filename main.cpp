@@ -15,9 +15,9 @@ int main()
         int y = 50;
     };
 
-    for (int i = 0; i < map.x; i++)
+    for (int i = 0; i < 50; i++)
     {
-        for (int j = 0; j < map.y; j++)
+        for (int j = 0; j < 50; j++)
         {
             std::cout << ".";
         }
@@ -41,6 +41,6 @@ int main()
 
     //validando impressão dos valores recebidos
 	std::cout << "\n\nStart values:\n X: " << start.x << ", Y: " << start.y;
-    std::cout << ";\n End values:\n X: " << end.x << ", Y: " << end.y << ";";
+    std::cout << ";\n End values:\n X: " << end.x << ", Y: " << end.y << ";" << std::endl;
 	return 0;
 } 
